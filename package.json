@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "This Project explains all Node JS examples",
   "main": "app.js",
+   "publishConfig": {
+	"registry": "http://15.206.124.54:9000/"
+  },
   "scripts": {
     "server": "http-server -c-1 -p 9999",
     "start1": "nodemon app.js",
